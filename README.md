@@ -23,7 +23,7 @@ npm install --save typographic-trademark
 ```js
 var trademark = require('typographic-orphan');
 
-trademark(`2013 MegaCorp (TM)`); // 2013 MegaCorp™
+trademark(`hello world this is a somewhat long sentence`); // hello world this is a somewhat long\u00A0$1sentence
 ```
 
 ## License
